@@ -1,0 +1,103 @@
+PayBuddy Security Toolkit - Evidence Report
+Team: CyberGuard (7451, 2285, 2291)
+Test Type: port_scan
+Timestamp: 2025-11-30 10:46:39
+
+============================================================
+
+{
+  "target": "127.0.0.1",
+  "scan_type": "Quick Scan",
+  "timestamp": "2025-11-30T10:46:39.287126",
+  "results": [
+    {
+      "Port": 21,
+      "State": "OPEN",
+      "Service": "FTP",
+      "Banner": "FTP Banner v7.7"
+    },
+    {
+      "Port": 22,
+      "State": "OPEN",
+      "Service": "SSH",
+      "Banner": "SSH Banner v1.9"
+    },
+    {
+      "Port": 23,
+      "State": "OPEN",
+      "Service": "Telnet",
+      "Banner": "Telnet Banner v1.5"
+    },
+    {
+      "Port": 25,
+      "State": "OPEN",
+      "Service": "SMTP",
+      "Banner": "SMTP Banner v6.2"
+    },
+    {
+      "Port": 80,
+      "State": "OPEN",
+      "Service": "HTTP",
+      "Banner": "HTTP Banner v1.8"
+    },
+    {
+      "Port": 110,
+      "State": "OPEN",
+      "Service": "POP3",
+      "Banner": "POP3 Banner v7.7"
+    },
+    {
+      "Port": 143,
+      "State": "CLOSED",
+      "Service": "IMAP",
+      "Banner": "N/A"
+    },
+    {
+      "Port": 443,
+      "State": "OPEN",
+      "Service": "HTTPS",
+      "Banner": "HTTPS Banner v3.4"
+    },
+    {
+      "Port": 445,
+      "State": "OPEN",
+      "Service": "SMB",
+      "Banner": "SMB Banner v5.4"
+    },
+    {
+      "Port": 3306,
+      "State": "OPEN",
+      "Service": "MySQL",
+      "Banner": "MySQL Banner v7.2"
+    },
+    {
+      "Port": 3389,
+      "State": "OPEN",
+      "Service": "RDP",
+      "Banner": "RDP Banner v7.1"
+    },
+    {
+      "Port": 5432,
+      "State": "OPEN",
+      "Service": "PostgreSQL",
+      "Banner": "PostgreSQL Banner v8.5"
+    },
+    {
+      "Port": 8080,
+      "State": "CLOSED",
+      "Service": "HTTP-Alt",
+      "Banner": "N/A"
+    },
+    {
+      "Port": 8443,
+      "State": "OPEN",
+      "Service": "HTTPS-Alt",
+      "Banner": "HTTPS-Alt Banner v2.4"
+    }
+  ],
+  "summary": {
+    "total_ports_scanned": 14,
+    "open_ports": 12,
+    "closed_ports": 2
+  }
+}

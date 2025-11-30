@@ -1,0 +1,61 @@
+AUTHORIZED SECURITY TESTING CONSENT
+====================================
+
+Approved Targets:
+- localhost (127.0.0.1)
+- 192.168.1.0/24 (Local network lab environment)
+- Personal Flask/FastAPI mock servers on ports 5000, 8000, 8080
+- TryHackMe - Search Skills room (OSINT/login testing)
+- Local Docker containers for security testing
+- http://testphp.vulnweb.com (authorized test site)
+- http://demo.testfire.net (authorized test site)
+- http://scanme.nmap.org (authorized scanning target)
+
+Testing Scope:
+This toolkit is authorized ONLY for:
+✓ Educational purposes (CY4053 Final Project)
+✓ Approved lab environments used in class
+✓ Personal development servers
+✓ Authorized penetration testing platforms
+✓ TryHackMe learning environments
+
+Prohibited Actions:
+✗ DO NOT test production systems
+✗ DO NOT test third-party systems without written authorization
+✗ DO NOT perform attacks on public infrastructure
+✗ DO NOT exceed rate limits (max 200 concurrent requests)
+✗ DO NOT use for malicious purposes
+
+Safety Measures:
+• All tests include identity verification
+• Maximum 200 concurrent requests enforced
+• Automatic throttling enabled
+• Comprehensive logging with SHA-256 integrity
+• All actions traceable to team members
+
+Team Information:
+Team Name: CyberGuard
+Members:
+- Moheed Ul Hassan (22I-7451) - Team Lead
+- Ali Abbas (22I-2285) - Developer
+- Abdur Rehman (22I-2291) - Developer
+
+Course: CY4053 - Cybersecurity
+Project: PayBuddy Security Testing Toolkit
+Institution: FAST-NUCES
+
+Approved By: Course Instructor / PayBuddy QA Team
+Authorization Date: November 29, 2025
+Valid Until: December 31, 2025
+
+Digital Signatures:
+[Instructor Signature Space]
+[Team Lead Signature Space]
+
+SHA-256 Hash (for integrity):
+[To be generated upon finalization]
+
+ACKNOWLEDGMENT:
+By using this toolkit, all team members acknowledge they have read,
+understood, and agree to abide by these terms and conditions.
+Unauthorized use may result in academic penalties and legal consequences.

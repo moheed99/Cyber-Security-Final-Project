@@ -1,0 +1,6 @@
+{
+  "project": "PayBuddy Security Testing Toolkit",
+  "team": "CyberGuard",
+  "version": "1.0.0",
+  "max_requests": 200
+}

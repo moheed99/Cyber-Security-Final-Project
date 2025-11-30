@@ -1,0 +1,53 @@
+PayBuddy Security Toolkit - Evidence Report
+Team: CyberGuard (7451, 2285, 2291)
+Test Type: web_discovery
+Timestamp: 2025-11-30 11:34:00
+
+============================================================
+
+{
+  "target": "http://example.com",
+  "results": [
+    {
+      "path": "/admin",
+      "status": 404,
+      "size": "1268 B"
+    },
+    {
+      "path": "/api",
+      "status": 200,
+      "size": "391 B"
+    },
+    {
+      "path": "/backup",
+      "status": 404,
+      "size": "264 B"
+    },
+    {
+      "path": "/config",
+      "status": 200,
+      "size": "3932 B"
+    },
+    {
+      "path": "/uploads",
+      "status": 200,
+      "size": "1120 B"
+    },
+    {
+      "path": "/assets",
+      "status": 403,
+      "size": "2163 B"
+    },
+    {
+      "path": "/login",
+      "status": 404,
+      "size": "2006 B"
+    },
+    {
+      "path": "/dashboard",
+      "status": 200,
+      "size": "2837 B"
+    }
+  ],
+  "timestamp": "2025-11-30T11:34:00.655825"
+}

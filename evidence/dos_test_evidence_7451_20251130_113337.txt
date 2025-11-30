@@ -1,0 +1,522 @@
+PayBuddy Security Toolkit - Evidence Report
+Team: CyberGuard (7451, 2285, 2291)
+Test Type: dos_test
+Timestamp: 2025-11-30 11:33:37
+
+============================================================
+
+{
+  "target": "http://localhost:8000",
+  "method": "GET",
+  "total_requests": 100,
+  "concurrent_clients": 10,
+  "results": [
+    {
+      "request_id": 1,
+      "status": 200,
+      "latency_ms": 333
+    },
+    {
+      "request_id": 2,
+      "status": 503,
+      "latency_ms": 249
+    },
+    {
+      "request_id": 3,
+      "status": 200,
+      "latency_ms": 150
+    },
+    {
+      "request_id": 4,
+      "status": 200,
+      "latency_ms": 146
+    },
+    {
+      "request_id": 5,
+      "status": 200,
+      "latency_ms": 320
+    },
+    {
+      "request_id": 6,
+      "status": 500,
+      "latency_ms": 426
+    },
+    {
+      "request_id": 7,
+      "status": 503,
+      "latency_ms": 452
+    },
+    {
+      "request_id": 8,
+      "status": 200,
+      "latency_ms": 158
+    },
+    {
+      "request_id": 9,
+      "status": 200,
+      "latency_ms": 480
+    },
+    {
+      "request_id": 10,
+      "status": 200,
+      "latency_ms": 78
+    },
+    {
+      "request_id": 11,
+      "status": 200,
+      "latency_ms": 207
+    },
+    {
+      "request_id": 12,
+      "status": 200,
+      "latency_ms": 258
+    },
+    {
+      "request_id": 13,
+      "status": 200,
+      "latency_ms": 134
+    },
+    {
+      "request_id": 14,
+      "status": 200,
+      "latency_ms": 219
+    },
+    {
+      "request_id": 15,
+      "status": 200,
+      "latency_ms": 209
+    },
+    {
+      "request_id": 16,
+      "status": 200,
+      "latency_ms": 414
+    },
+    {
+      "request_id": 17,
+      "status": 200,
+      "latency_ms": 162
+    },
+    {
+      "request_id": 18,
+      "status": 200,
+      "latency_ms": 416
+    },
+    {
+      "request_id": 19,
+      "status": 500,
+      "latency_ms": 324
+    },
+    {
+      "request_id": 20,
+      "status": 503,
+      "latency_ms": 135
+    },
+    {
+      "request_id": 21,
+      "status": 503,
+      "latency_ms": 340
+    },
+    {
+      "request_id": 22,
+      "status": 503,
+      "latency_ms": 229
+    },
+    {
+      "request_id": 23,
+      "status": 200,
+      "latency_ms": 380
+    },
+    {
+      "request_id": 24,
+      "status": 503,
+      "latency_ms": 186
+    },
+    {
+      "request_id": 25,
+      "status": 503,
+      "latency_ms": 434
+    },
+    {
+      "request_id": 26,
+      "status": 200,
+      "latency_ms": 231
+    },
+    {
+      "request_id": 27,
+      "status": 200,
+      "latency_ms": 203
+    },
+    {
+      "request_id": 28,
+      "status": 200,
+      "latency_ms": 181
+    },
+    {
+      "request_id": 29,
+      "status": 200,
+      "latency_ms": 376
+    },
+    {
+      "request_id": 30,
+      "status": 200,
+      "latency_ms": 424
+    },
+    {
+      "request_id": 31,
+      "status": 200,
+      "latency_ms": 261
+    },
+    {
+      "request_id": 32,
+      "status": 200,
+      "latency_ms": 341
+    },
+    {
+      "request_id": 33,
+      "status": 200,
+      "latency_ms": 443
+    },
+    {
+      "request_id": 34,
+      "status": 200,
+      "latency_ms": 385
+    },
+    {
+      "request_id": 35,
+      "status": 200,
+      "latency_ms": 306
+    },
+    {
+      "request_id": 36,
+      "status": 500,
+      "latency_ms": 206
+    },
+    {
+      "request_id": 37,
+      "status": 500,
+      "latency_ms": 388
+    },
+    {
+      "request_id": 38,
+      "status": 200,
+      "latency_ms": 67
+    },
+    {
+      "request_id": 39,
+      "status": 200,
+      "latency_ms": 72
+    },
+    {
+      "request_id": 40,
+      "status": 503,
+      "latency_ms": 155
+    },
+    {
+      "request_id": 41,
+      "status": 200,
+      "latency_ms": 158
+    },
+    {
+      "request_id": 42,
+      "status": 200,
+      "latency_ms": 67
+    },
+    {
+      "request_id": 43,
+      "status": 500,
+      "latency_ms": 417
+    },
+    {
+      "request_id": 44,
+      "status": 200,
+      "latency_ms": 476
+    },
+    {
+      "request_id": 45,
+      "status": 503,
+      "latency_ms": 392
+    },
+    {
+      "request_id": 46,
+      "status": 500,
+      "latency_ms": 484
+    },
+    {
+      "request_id": 47,
+      "status": 200,
+      "latency_ms": 415
+    },
+    {
+      "request_id": 48,
+      "status": 503,
+      "latency_ms": 454
+    },
+    {
+      "request_id": 49,
+      "status": 200,
+      "latency_ms": 475
+    },
+    {
+      "request_id": 50,
+      "status": 200,
+      "latency_ms": 453
+    },
+    {
+      "request_id": 51,
+      "status": 503,
+      "latency_ms": 423
+    },
+    {
+      "request_id": 52,
+      "status": 200,
+      "latency_ms": 478
+    },
+    {
+      "request_id": 53,
+      "status": 503,
+      "latency_ms": 127
+    },
+    {
+      "request_id": 54,
+      "status": 503,
+      "latency_ms": 179
+    },
+    {
+      "request_id": 55,
+      "status": 503,
+      "latency_ms": 475
+    },
+    {
+      "request_id": 56,
+      "status": 200,
+      "latency_ms": 298
+    },
+    {
+      "request_id": 57,
+      "status": 503,
+      "latency_ms": 206
+    },
+    {
+      "request_id": 58,
+      "status": 200,
+      "latency_ms": 151
+    },
+    {
+      "request_id": 59,
+      "status": 503,
+      "latency_ms": 271
+    },
+    {
+      "request_id": 60,
+      "status": 500,
+      "latency_ms": 401
+    },
+    {
+      "request_id": 61,
+      "status": 500,
+      "latency_ms": 60
+    },
+    {
+      "request_id": 62,
+      "status": 500,
+      "latency_ms": 185
+    },
+    {
+      "request_id": 63,
+      "status": 503,
+      "latency_ms": 108
+    },
+    {
+      "request_id": 64,
+      "status": 200,
+      "latency_ms": 461
+    },
+    {
+      "request_id": 65,
+      "status": 500,
+      "latency_ms": 179
+    },
+    {
+      "request_id": 66,
+      "status": 200,
+      "latency_ms": 418
+    },
+    {
+      "request_id": 67,
+      "status": 500,
+      "latency_ms": 70
+    },
+    {
+      "request_id": 68,
+      "status": 200,
+      "latency_ms": 410
+    },
+    {
+      "request_id": 69,
+      "status": 500,
+      "latency_ms": 383
+    },
+    {
+      "request_id": 70,
+      "status": 200,
+      "latency_ms": 79
+    },
+    {
+      "request_id": 71,
+      "status": 500,
+      "latency_ms": 437
+    },
+    {
+      "request_id": 72,
+      "status": 503,
+      "latency_ms": 209
+    },
+    {
+      "request_id": 73,
+      "status": 500,
+      "latency_ms": 351
+    },
+    {
+      "request_id": 74,
+      "status": 200,
+      "latency_ms": 109
+    },
+    {
+      "request_id": 75,
+      "status": 500,
+      "latency_ms": 54
+    },
+    {
+      "request_id": 76,
+      "status": 500,
+      "latency_ms": 343
+    },
+    {
+      "request_id": 77,
+      "status": 503,
+      "latency_ms": 72
+    },
+    {
+      "request_id": 78,
+      "status": 200,
+      "latency_ms": 115
+    },
+    {
+      "request_id": 79,
+      "status": 200,
+      "latency_ms": 158
+    },
+    {
+      "request_id": 80,
+      "status": 500,
+      "latency_ms": 118
+    },
+    {
+      "request_id": 81,
+      "status": 503,
+      "latency_ms": 105
+    },
+    {
+      "request_id": 82,
+      "status": 500,
+      "latency_ms": 181
+    },
+    {
+      "request_id": 83,
+      "status": 500,
+      "latency_ms": 407
+    },
+    {
+      "request_id": 84,
+      "status": 503,
+      "latency_ms": 294
+    },
+    {
+      "request_id": 85,
+      "status": 500,
+      "latency_ms": 487
+    },
+    {
+      "request_id": 86,
+      "status": 200,
+      "latency_ms": 379
+    },
+    {
+      "request_id": 87,
+      "status": 500,
+      "latency_ms": 229
+    },
+    {
+      "request_id": 88,
+      "status": 200,
+      "latency_ms": 301
+    },
+    {
+      "request_id": 89,
+      "status": 200,
+      "latency_ms": 241
+    },
+    {
+      "request_id": 90,
+      "status": 200,
+      "latency_ms": 80
+    },
+    {
+      "request_id": 91,
+      "status": 200,
+      "latency_ms": 336
+    },
+    {
+      "request_id": 92,
+      "status": 200,
+      "latency_ms": 494
+    },
+    {
+      "request_id": 93,
+      "status": 200,
+      "latency_ms": 51
+    },
+    {
+      "request_id": 94,
+      "status": 500,
+      "latency_ms": 136
+    },
+    {
+      "request_id": 95,
+      "status": 200,
+      "latency_ms": 496
+    },
+    {
+      "request_id": 96,
+      "status": 200,
+      "latency_ms": 253
+    },
+    {
+      "request_id": 97,
+      "status": 200,
+      "latency_ms": 457
+    },
+    {
+      "request_id": 98,
+      "status": 200,
+      "latency_ms": 193
+    },
+    {
+      "request_id": 99,
+      "status": 503,
+      "latency_ms": 340
+    },
+    {
+      "request_id": 100,
+      "status": 200,
+      "latency_ms": 242
+    }
+  ],
+  "summary": {
+    "success_count": 56,
+    "failed_count": 44,
+    "success_rate": 56.00000000000001,
+    "avg_latency_ms": 276.99
+  },
+  "timestamp": "2025-11-30T11:33:37.285451"
+}

@@ -1,0 +1,96 @@
+{
+  "target": "127.0.0.1",
+  "scan_type": "Quick Scan",
+  "timestamp": "2025-11-30T11:32:02.206044",
+  "results": [
+    {
+      "Port": 21,
+      "State": "OPEN",
+      "Service": "FTP",
+      "Banner": "FTP v3.6"
+    },
+    {
+      "Port": 22,
+      "State": "OPEN",
+      "Service": "SSH",
+      "Banner": "SSH v3.3"
+    },
+    {
+      "Port": 23,
+      "State": "OPEN",
+      "Service": "Telnet",
+      "Banner": "Telnet v9.9"
+    },
+    {
+      "Port": 25,
+      "State": "OPEN",
+      "Service": "SMTP",
+      "Banner": "SMTP v4.4"
+    },
+    {
+      "Port": 80,
+      "State": "CLOSED",
+      "Service": "HTTP",
+      "Banner": "N/A"
+    },
+    {
+      "Port": 110,
+      "State": "CLOSED",
+      "Service": "POP3",
+      "Banner": "N/A"
+    },
+    {
+      "Port": 143,
+      "State": "OPEN",
+      "Service": "IMAP",
+      "Banner": "IMAP v5.3"
+    },
+    {
+      "Port": 443,
+      "State": "OPEN",
+      "Service": "HTTPS",
+      "Banner": "HTTPS v2.6"
+    },
+    {
+      "Port": 445,
+      "State": "CLOSED",
+      "Service": "SMB",
+      "Banner": "N/A"
+    },
+    {
+      "Port": 3306,
+      "State": "CLOSED",
+      "Service": "MySQL",
+      "Banner": "N/A"
+    },
+    {
+      "Port": 3389,
+      "State": "OPEN",
+      "Service": "RDP",
+      "Banner": "RDP v7.6"
+    },
+    {
+      "Port": 5432,
+      "State": "OPEN",
+      "Service": "PostgreSQL",
+      "Banner": "PostgreSQL v9.6"
+    },
+    {
+      "Port": 8080,
+      "State": "CLOSED",
+      "Service": "HTTP-Alt",
+      "Banner": "N/A"
+    },
+    {
+      "Port": 8443,
+      "State": "OPEN",
+      "Service": "HTTPS-Alt",
+      "Banner": "HTTPS-Alt v7.5"
+    }
+  ],
+  "summary": {
+    "total_ports_scanned": 14,
+    "open_ports": 9,
+    "closed_ports": 5
+  }
+}

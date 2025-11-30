@@ -1,0 +1,103 @@
+PayBuddy Security Toolkit - Evidence Report
+Team: CyberGuard (7451, 2285, 2291)
+Test Type: port_scan
+Timestamp: 2025-11-30 11:13:29
+
+============================================================
+
+{
+  "target": "127.0.0.1",
+  "scan_type": "Quick Scan",
+  "timestamp": "2025-11-30T11:13:29.786582",
+  "results": [
+    {
+      "Port": 21,
+      "State": "OPEN",
+      "Service": "FTP",
+      "Banner": "FTP v8.8"
+    },
+    {
+      "Port": 22,
+      "State": "OPEN",
+      "Service": "SSH",
+      "Banner": "SSH v3.6"
+    },
+    {
+      "Port": 23,
+      "State": "CLOSED",
+      "Service": "Telnet",
+      "Banner": "N/A"
+    },
+    {
+      "Port": 25,
+      "State": "CLOSED",
+      "Service": "SMTP",
+      "Banner": "N/A"
+    },
+    {
+      "Port": 80,
+      "State": "CLOSED",
+      "Service": "HTTP",
+      "Banner": "N/A"
+    },
+    {
+      "Port": 110,
+      "State": "OPEN",
+      "Service": "POP3",
+      "Banner": "POP3 v5.2"
+    },
+    {
+      "Port": 143,
+      "State": "OPEN",
+      "Service": "IMAP",
+      "Banner": "IMAP v9.9"
+    },
+    {
+      "Port": 443,
+      "State": "OPEN",
+      "Service": "HTTPS",
+      "Banner": "HTTPS v6.3"
+    },
+    {
+      "Port": 445,
+      "State": "OPEN",
+      "Service": "SMB",
+      "Banner": "SMB v1.8"
+    },
+    {
+      "Port": 3306,
+      "State": "CLOSED",
+      "Service": "MySQL",
+      "Banner": "N/A"
+    },
+    {
+      "Port": 3389,
+      "State": "OPEN",
+      "Service": "RDP",
+      "Banner": "RDP v8.1"
+    },
+    {
+      "Port": 5432,
+      "State": "OPEN",
+      "Service": "PostgreSQL",
+      "Banner": "PostgreSQL v3.5"
+    },
+    {
+      "Port": 8080,
+      "State": "OPEN",
+      "Service": "HTTP-Alt",
+      "Banner": "HTTP-Alt v6.6"
+    },
+    {
+      "Port": 8443,
+      "State": "CLOSED",
+      "Service": "HTTPS-Alt",
+      "Banner": "N/A"
+    }
+  ],
+  "summary": {
+    "total_ports_scanned": 14,
+    "open_ports": 9,
+    "closed_ports": 5
+  }
+}

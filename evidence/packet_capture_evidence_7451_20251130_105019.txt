@@ -1,0 +1,17 @@
+PayBuddy Security Toolkit - Evidence Report
+Team: CyberGuard (7451, 2285, 2291)
+Test Type: packet_capture
+Timestamp: 2025-11-30 10:50:20
+
+============================================================
+
+{
+  "interface": "eth0",
+  "packet_count": 50,
+  "protocols": {
+    "TCP": 60,
+    "UDP": 30,
+    "ICMP": 10
+  },
+  "timestamp": "2025-11-30T10:50:19.672043"
+}

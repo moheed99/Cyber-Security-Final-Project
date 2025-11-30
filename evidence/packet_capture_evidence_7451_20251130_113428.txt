@@ -1,0 +1,575 @@
+PayBuddy Security Toolkit - Evidence Report
+Team: CyberGuard (7451, 2285, 2291)
+Test Type: packet_capture
+Timestamp: 2025-11-30 11:34:29
+
+============================================================
+
+{
+  "interface": "eth0",
+  "packet_count": 100,
+  "duration_seconds": 30,
+  "bpf_filter": "tcp port 80",
+  "protocol_counts": {
+    "TCP": 12,
+    "UDP": 14,
+    "ICMP": 23,
+    "HTTP": 12,
+    "HTTPS": 20,
+    "DNS": 19
+  },
+  "average_packet_size": 800.25,
+  "captured_packets": [
+    {
+      "Packet_No": 1,
+      "Timestamp": "11:34:18.862",
+      "Protocol": "DNS",
+      "Source_IP": "192.168.1.132",
+      "Dest_IP": "192.168.1.87",
+      "Source_Port": 28994,
+      "Dest_Port": 53,
+      "Length": 814,
+      "Info": "DNS 28994 \u2192 53"
+    },
+    {
+      "Packet_No": 2,
+      "Timestamp": "11:34:18.889",
+      "Protocol": "ICMP",
+      "Source_IP": "192.168.1.167",
+      "Dest_IP": "192.168.1.183",
+      "Source_Port": 64043,
+      "Dest_Port": 22,
+      "Length": 1193,
+      "Info": "ICMP 64043 \u2192 22"
+    },
+    {
+      "Packet_No": 3,
+      "Timestamp": "11:34:18.918",
+      "Protocol": "UDP",
+      "Source_IP": "192.168.1.193",
+      "Dest_IP": "192.168.1.253",
+      "Source_Port": 13767,
+      "Dest_Port": 22,
+      "Length": 269,
+      "Info": "UDP 13767 \u2192 22"
+    },
+    {
+      "Packet_No": 4,
+      "Timestamp": "11:34:18.952",
+      "Protocol": "HTTP",
+      "Source_IP": "192.168.1.168",
+      "Dest_IP": "192.168.1.108",
+      "Source_Port": 28774,
+      "Dest_Port": 22,
+      "Length": 1020,
+      "Info": "HTTP 28774 \u2192 22"
+    },
+    {
+      "Packet_No": 5,
+      "Timestamp": "11:34:18.985",
+      "Protocol": "TCP",
+      "Source_IP": "192.168.1.181",
+      "Dest_IP": "192.168.1.106",
+      "Source_Port": 21496,
+      "Dest_Port": 53,
+      "Length": 308,
+      "Info": "TCP 21496 \u2192 53"
+    },
+    {
+      "Packet_No": 6,
+      "Timestamp": "11:34:19.019",
+      "Protocol": "DNS",
+      "Source_IP": "192.168.1.225",
+      "Dest_IP": "192.168.1.176",
+      "Source_Port": 17694,
+      "Dest_Port": 8080,
+      "Length": 158,
+      "Info": "DNS 17694 \u2192 8080"
+    },
+    {
+      "Packet_No": 7,
+      "Timestamp": "11:34:19.051",
+      "Protocol": "DNS",
+      "Source_IP": "192.168.1.45",
+      "Dest_IP": "192.168.1.139",
+      "Source_Port": 2463,
+      "Dest_Port": 80,
+      "Length": 299,
+      "Info": "DNS 2463 \u2192 80"
+    },
+    {
+      "Packet_No": 8,
+      "Timestamp": "11:34:19.091",
+      "Protocol": "HTTP",
+      "Source_IP": "192.168.1.182",
+      "Dest_IP": "192.168.1.237",
+      "Source_Port": 32850,
+      "Dest_Port": 8080,
+      "Length": 120,
+      "Info": "HTTP 32850 \u2192 8080"
+    },
+    {
+      "Packet_No": 9,
+      "Timestamp": "11:34:19.126",
+      "Protocol": "HTTPS",
+      "Source_IP": "192.168.1.154",
+      "Dest_IP": "192.168.1.130",
+      "Source_Port": 57604,
+      "Dest_Port": 22,
+      "Length": 174,
+      "Info": "HTTPS 57604 \u2192 22"
+    },
+    {
+      "Packet_No": 10,
+      "Timestamp": "11:34:19.232",
+      "Protocol": "ICMP",
+      "Source_IP": "192.168.1.98",
+      "Dest_IP": "192.168.1.47",
+      "Source_Port": 18331,
+      "Dest_Port": 443,
+      "Length": 1323,
+      "Info": "ICMP 18331 \u2192 443"
+    },
+    {
+      "Packet_No": 11,
+      "Timestamp": "11:34:20.726",
+      "Protocol": "HTTPS",
+      "Source_IP": "192.168.1.145",
+      "Dest_IP": "192.168.1.192",
+      "Source_Port": 49081,
+      "Dest_Port": 22,
+      "Length": 1116,
+      "Info": "HTTPS 49081 \u2192 22"
+    },
+    {
+      "Packet_No": 12,
+      "Timestamp": "11:34:20.766",
+      "Protocol": "UDP",
+      "Source_IP": "192.168.1.158",
+      "Dest_IP": "192.168.1.130",
+      "Source_Port": 8276,
+      "Dest_Port": 80,
+      "Length": 1032,
+      "Info": "UDP 8276 \u2192 80"
+    },
+    {
+      "Packet_No": 13,
+      "Timestamp": "11:34:20.799",
+      "Protocol": "ICMP",
+      "Source_IP": "192.168.1.150",
+      "Dest_IP": "192.168.1.37",
+      "Source_Port": 23586,
+      "Dest_Port": 3306,
+      "Length": 839,
+      "Info": "ICMP 23586 \u2192 3306"
+    },
+    {
+      "Packet_No": 14,
+      "Timestamp": "11:34:20.830",
+      "Protocol": "ICMP",
+      "Source_IP": "192.168.1.47",
+      "Dest_IP": "192.168.1.137",
+      "Source_Port": 17267,
+      "Dest_Port": 8080,
+      "Length": 1256,
+      "Info": "ICMP 17267 \u2192 8080"
+    },
+    {
+      "Packet_No": 15,
+      "Timestamp": "11:34:20.854",
+      "Protocol": "ICMP",
+      "Source_IP": "192.168.1.162",
+      "Dest_IP": "192.168.1.169",
+      "Source_Port": 24959,
+      "Dest_Port": 443,
+      "Length": 534,
+      "Info": "ICMP 24959 \u2192 443"
+    },
+    {
+      "Packet_No": 16,
+      "Timestamp": "11:34:20.892",
+      "Protocol": "ICMP",
+      "Source_IP": "192.168.1.44",
+      "Dest_IP": "192.168.1.98",
+      "Source_Port": 30400,
+      "Dest_Port": 80,
+      "Length": 1217,
+      "Info": "ICMP 30400 \u2192 80"
+    },
+    {
+      "Packet_No": 17,
+      "Timestamp": "11:34:20.943",
+      "Protocol": "HTTP",
+      "Source_IP": "192.168.1.173",
+      "Dest_IP": "192.168.1.129",
+      "Source_Port": 3574,
+      "Dest_Port": 22,
+      "Length": 517,
+      "Info": "HTTP 3574 \u2192 22"
+    },
+    {
+      "Packet_No": 18,
+      "Timestamp": "11:34:20.976",
+      "Protocol": "HTTPS",
+      "Source_IP": "192.168.1.234",
+      "Dest_IP": "192.168.1.250",
+      "Source_Port": 35293,
+      "Dest_Port": 443,
+      "Length": 72,
+      "Info": "HTTPS 35293 \u2192 443"
+    },
+    {
+      "Packet_No": 19,
+      "Timestamp": "11:34:21.007",
+      "Protocol": "HTTPS",
+      "Source_IP": "192.168.1.53",
+      "Dest_IP": "192.168.1.137",
+      "Source_Port": 22163,
+      "Dest_Port": 3306,
+      "Length": 733,
+      "Info": "HTTPS 22163 \u2192 3306"
+    },
+    {
+      "Packet_No": 20,
+      "Timestamp": "11:34:21.042",
+      "Protocol": "UDP",
+      "Source_IP": "192.168.1.86",
+      "Dest_IP": "192.168.1.252",
+      "Source_Port": 47416,
+      "Dest_Port": 53,
+      "Length": 1099,
+      "Info": "UDP 47416 \u2192 53"
+    },
+    {
+      "Packet_No": 21,
+      "Timestamp": "11:34:21.572",
+      "Protocol": "ICMP",
+      "Source_IP": "192.168.1.240",
+      "Dest_IP": "192.168.1.58",
+      "Source_Port": 44552,
+      "Dest_Port": 443,
+      "Length": 780,
+      "Info": "ICMP 44552 \u2192 443"
+    },
+    {
+      "Packet_No": 22,
+      "Timestamp": "11:34:21.870",
+      "Protocol": "DNS",
+      "Source_IP": "192.168.1.236",
+      "Dest_IP": "192.168.1.194",
+      "Source_Port": 34862,
+      "Dest_Port": 80,
+      "Length": 792,
+      "Info": "DNS 34862 \u2192 80"
+    },
+    {
+      "Packet_No": 23,
+      "Timestamp": "11:34:21.932",
+      "Protocol": "HTTPS",
+      "Source_IP": "192.168.1.43",
+      "Dest_IP": "192.168.1.137",
+      "Source_Port": 1522,
+      "Dest_Port": 80,
+      "Length": 1478,
+      "Info": "HTTPS 1522 \u2192 80"
+    },
+    {
+      "Packet_No": 24,
+      "Timestamp": "11:34:21.974",
+      "Protocol": "HTTP",
+      "Source_IP": "192.168.1.242",
+      "Dest_IP": "192.168.1.167",
+      "Source_Port": 36773,
+      "Dest_Port": 80,
+      "Length": 193,
+      "Info": "HTTP 36773 \u2192 80"
+    },
+    {
+      "Packet_No": 25,
+      "Timestamp": "11:34:22.018",
+      "Protocol": "UDP",
+      "Source_IP": "192.168.1.100",
+      "Dest_IP": "192.168.1.240",
+      "Source_Port": 62981,
+      "Dest_Port": 53,
+      "Length": 332,
+      "Info": "UDP 62981 \u2192 53"
+    },
+    {
+      "Packet_No": 26,
+      "Timestamp": "11:34:22.041",
+      "Protocol": "DNS",
+      "Source_IP": "192.168.1.9",
+      "Dest_IP": "192.168.1.236",
+      "Source_Port": 51754,
+      "Dest_Port": 443,
+      "Length": 93,
+      "Info": "DNS 51754 \u2192 443"
+    },
+    {
+      "Packet_No": 27,
+      "Timestamp": "11:34:22.078",
+      "Protocol": "TCP",
+      "Source_IP": "192.168.1.154",
+      "Dest_IP": "192.168.1.122",
+      "Source_Port": 26313,
+      "Dest_Port": 53,
+      "Length": 928,
+      "Info": "TCP 26313 \u2192 53"
+    },
+    {
+      "Packet_No": 28,
+      "Timestamp": "11:34:22.114",
+      "Protocol": "DNS",
+      "Source_IP": "192.168.1.227",
+      "Dest_IP": "192.168.1.35",
+      "Source_Port": 2053,
+      "Dest_Port": 3306,
+      "Length": 469,
+      "Info": "DNS 2053 \u2192 3306"
+    },
+    {
+      "Packet_No": 29,
+      "Timestamp": "11:34:22.141",
+      "Protocol": "DNS",
+      "Source_IP": "192.168.1.111",
+      "Dest_IP": "192.168.1.17",
+      "Source_Port": 42289,
+      "Dest_Port": 443,
+      "Length": 138,
+      "Info": "DNS 42289 \u2192 443"
+    },
+    {
+      "Packet_No": 30,
+      "Timestamp": "11:34:22.275",
+      "Protocol": "UDP",
+      "Source_IP": "192.168.1.245",
+      "Dest_IP": "192.168.1.80",
+      "Source_Port": 20655,
+      "Dest_Port": 8080,
+      "Length": 1464,
+      "Info": "UDP 20655 \u2192 8080"
+    },
+    {
+      "Packet_No": 31,
+      "Timestamp": "11:34:22.466",
+      "Protocol": "DNS",
+      "Source_IP": "192.168.1.96",
+      "Dest_IP": "192.168.1.35",
+      "Source_Port": 52583,
+      "Dest_Port": 53,
+      "Length": 705,
+      "Info": "DNS 52583 \u2192 53"
+    },
+    {
+      "Packet_No": 32,
+      "Timestamp": "11:34:22.558",
+      "Protocol": "HTTPS",
+      "Source_IP": "192.168.1.187",
+      "Dest_IP": "192.168.1.108",
+      "Source_Port": 55062,
+      "Dest_Port": 3306,
+      "Length": 1355,
+      "Info": "HTTPS 55062 \u2192 3306"
+    },
+    {
+      "Packet_No": 33,
+      "Timestamp": "11:34:22.743",
+      "Protocol": "ICMP",
+      "Source_IP": "192.168.1.251",
+      "Dest_IP": "192.168.1.43",
+      "Source_Port": 35006,
+      "Dest_Port": 53,
+      "Length": 1487,
+      "Info": "ICMP 35006 \u2192 53"
+    },
+    {
+      "Packet_No": 34,
+      "Timestamp": "11:34:22.786",
+      "Protocol": "HTTPS",
+      "Source_IP": "192.168.1.54",
+      "Dest_IP": "192.168.1.70",
+      "Source_Port": 1126,
+      "Dest_Port": 53,
+      "Length": 1180,
+      "Info": "HTTPS 1126 \u2192 53"
+    },
+    {
+      "Packet_No": 35,
+      "Timestamp": "11:34:22.812",
+      "Protocol": "ICMP",
+      "Source_IP": "192.168.1.220",
+      "Dest_IP": "192.168.1.71",
+      "Source_Port": 55282,
+      "Dest_Port": 3306,
+      "Length": 1341,
+      "Info": "ICMP 55282 \u2192 3306"
+    },
+    {
+      "Packet_No": 36,
+      "Timestamp": "11:34:22.846",
+      "Protocol": "HTTPS",
+      "Source_IP": "192.168.1.1",
+      "Dest_IP": "192.168.1.33",
+      "Source_Port": 13029,
+      "Dest_Port": 80,
+      "Length": 915,
+      "Info": "HTTPS 13029 \u2192 80"
+    },
+    {
+      "Packet_No": 37,
+      "Timestamp": "11:34:22.878",
+      "Protocol": "DNS",
+      "Source_IP": "192.168.1.88",
+      "Dest_IP": "192.168.1.44",
+      "Source_Port": 45250,
+      "Dest_Port": 80,
+      "Length": 1322,
+      "Info": "DNS 45250 \u2192 80"
+    },
+    {
+      "Packet_No": 38,
+      "Timestamp": "11:34:22.906",
+      "Protocol": "UDP",
+      "Source_IP": "192.168.1.238",
+      "Dest_IP": "192.168.1.241",
+      "Source_Port": 32246,
+      "Dest_Port": 8080,
+      "Length": 428,
+      "Info": "UDP 32246 \u2192 8080"
+    },
+    {
+      "Packet_No": 39,
+      "Timestamp": "11:34:22.951",
+      "Protocol": "HTTPS",
+      "Source_IP": "192.168.1.22",
+      "Dest_IP": "192.168.1.158",
+      "Source_Port": 28058,
+      "Dest_Port": 8080,
+      "Length": 994,
+      "Info": "HTTPS 28058 \u2192 8080"
+    },
+    {
+      "Packet_No": 40,
+      "Timestamp": "11:34:22.998",
+      "Protocol": "TCP",
+      "Source_IP": "192.168.1.7",
+      "Dest_IP": "192.168.1.13",
+      "Source_Port": 27579,
+      "Dest_Port": 443,
+      "Length": 1297,
+      "Info": "TCP 27579 \u2192 443"
+    },
+    {
+      "Packet_No": 41,
+      "Timestamp": "11:34:23.241",
+      "Protocol": "TCP",
+      "Source_IP": "192.168.1.154",
+      "Dest_IP": "192.168.1.143",
+      "Source_Port": 37094,
+      "Dest_Port": 22,
+      "Length": 1305,
+      "Info": "TCP 37094 \u2192 22"
+    },
+    {
+      "Packet_No": 42,
+      "Timestamp": "11:34:23.319",
+      "Protocol": "HTTP",
+      "Source_IP": "192.168.1.16",
+      "Dest_IP": "192.168.1.86",
+      "Source_Port": 5568,
+      "Dest_Port": 53,
+      "Length": 313,
+      "Info": "HTTP 5568 \u2192 53"
+    },
+    {
+      "Packet_No": 43,
+      "Timestamp": "11:34:23.347",
+      "Protocol": "UDP",
+      "Source_IP": "192.168.1.52",
+      "Dest_IP": "192.168.1.134",
+      "Source_Port": 53942,
+      "Dest_Port": 443,
+      "Length": 717,
+      "Info": "UDP 53942 \u2192 443"
+    },
+    {
+      "Packet_No": 44,
+      "Timestamp": "11:34:23.373",
+      "Protocol": "DNS",
+      "Source_IP": "192.168.1.123",
+      "Dest_IP": "192.168.1.137",
+      "Source_Port": 34264,
+      "Dest_Port": 80,
+      "Length": 981,
+      "Info": "DNS 34264 \u2192 80"
+    },
+    {
+      "Packet_No": 45,
+      "Timestamp": "11:34:23.404",
+      "Protocol": "DNS",
+      "Source_IP": "192.168.1.163",
+      "Dest_IP": "192.168.1.95",
+      "Source_Port": 40609,
+      "Dest_Port": 53,
+      "Length": 1145,
+      "Info": "DNS 40609 \u2192 53"
+    },
+    {
+      "Packet_No": 46,
+      "Timestamp": "11:34:23.443",
+      "Protocol": "DNS",
+      "Source_IP": "192.168.1.209",
+      "Dest_IP": "192.168.1.21",
+      "Source_Port": 52661,
+      "Dest_Port": 53,
+      "Length": 213,
+      "Info": "DNS 52661 \u2192 53"
+    },
+    {
+      "Packet_No": 47,
+      "Timestamp": "11:34:23.639",
+      "Protocol": "HTTPS",
+      "Source_IP": "192.168.1.233",
+      "Dest_IP": "192.168.1.31",
+      "Source_Port": 15057,
+      "Dest_Port": 80,
+      "Length": 948,
+      "Info": "HTTPS 15057 \u2192 80"
+    },
+    {
+      "Packet_No": 48,
+      "Timestamp": "11:34:23.685",
+      "Protocol": "ICMP",
+      "Source_IP": "192.168.1.229",
+      "Dest_IP": "192.168.1.196",
+      "Source_Port": 20678,
+      "Dest_Port": 8080,
+      "Length": 1362,
+      "Info": "ICMP 20678 \u2192 8080"
+    },
+    {
+      "Packet_No": 49,
+      "Timestamp": "11:34:23.732",
+      "Protocol": "UDP",
+      "Source_IP": "192.168.1.140",
+      "Dest_IP": "192.168.1.39",
+      "Source_Port": 3193,
+      "Dest_Port": 443,
+      "Length": 208,
+      "Info": "UDP 3193 \u2192 443"
+    },
+    {
+      "Packet_No": 50,
+      "Timestamp": "11:34:23.766",
+      "Protocol": "HTTPS",
+      "Source_IP": "192.168.1.205",
+      "Dest_IP": "192.168.1.211",
+      "Source_Port": 29131,
+      "Dest_Port": 8080,
+      "Length": 552,
+      "Info": "HTTPS 29131 \u2192 8080"
+    }
+  ],
+  "timestamp": "2025-11-30T11:34:28.820843"
+}
