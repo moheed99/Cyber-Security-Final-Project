@@ -218,7 +218,6 @@ Before using this toolkit:
 | **Ali Abbas** | 22I-2285 | Frontend & UI/UX Developer | Dashboard Design, Visualization, Reports |
 | **Abdur Rehman** | 22I-2291 | Security Analyst & Tester | Password Analysis, Packet Capture, Testing |
 
-**Contact:** l227451@lhr.nu.edu.pk
 
 ---
 
@@ -283,7 +282,7 @@ This project fulfills all requirements of the Cyber Security course final projec
 
 For questions, suggestions, or collaboration:
 
-- **Primary Contact:** Moheed Ul Hassan (l227451@lhr.nu.edu.pk)
+- **Primary Contact:** Moheed Ul Hassan 
 - **Institution:** FAST-NUCES Islamabad
 - **Course:** Cyber Security (Fall 2025)
 - **Supervisor:** Dr. Usama Arshad
@@ -339,3 +338,4 @@ If you find this project helpful for educational purposes, please consider givin
 [⬆ Back to Top](#-paybuddy-security-toolkit)
 
 </div>
+
